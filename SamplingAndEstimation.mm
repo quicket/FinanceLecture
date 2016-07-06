@@ -1,0 +1,64 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1466414225822" ID="ID_1457186481" MODIFIED="1466414328553" TEXT="Sampling &amp; Estimation">
+<node CREATED="1466414310987" ID="ID_1291960620" MODIFIED="1466414317084" POSITION="right" TEXT="Sample should be random"/>
+<node CREATED="1466414330476" ID="ID_1312196907" MODIFIED="1466414333827" POSITION="left" TEXT="Sampling Method">
+<node CREATED="1466414340760" ID="ID_832058640" MODIFIED="1466414380829" TEXT="Simple Random Sampling">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1466414354688" ID="ID_1452492384" MODIFIED="1466414361676" TEXT="Stratified Random Sampling">
+<icon BUILTIN="full-2"/>
+<node CREATED="1466414384552" ID="ID_881853335" MODIFIED="1466414395982" TEXT="More precise parameter estimates"/>
+</node>
+</node>
+<node CREATED="1466414415994" ID="ID_1267892192" MODIFIED="1466414419134" POSITION="right" TEXT="Data Type">
+<node CREATED="1466414426992" ID="ID_1560446674" MODIFIED="1466414438341" TEXT="Time Series"/>
+<node CREATED="1466414442186" ID="ID_1590876693" MODIFIED="1466414484273" TEXT="Cross Sectional Data:Observation at a single point of time"/>
+</node>
+<node CREATED="1466414503518" ID="ID_401398725" MODIFIED="1466414509440" POSITION="left" TEXT="Distribution of the Sample Mean">
+<node CREATED="1466414512992" ID="ID_122458822" MODIFIED="1466414657692" TEXT="Central Limit Theorem">
+<node CREATED="1466414536452" ID="ID_869433123" MODIFIED="1466414564534" TEXT="distribution of sample mean will be approximately normal"/>
+<node CREATED="1466414568778" ID="ID_985681135" MODIFIED="1466414611861" TEXT="u(sample mean) = u(population)"/>
+<node CREATED="1466414586151" ID="ID_1965332108" MODIFIED="1466414643279" TEXT="Var(Sample Mean) = Var(Population)/sample size"/>
+<node CREATED="1466414659253" ID="ID_134018551" MODIFIED="1466414665400" TEXT="Sample Size is Large: &gt;= 30"/>
+</node>
+</node>
+<node CREATED="1466414686711" ID="ID_989969136" MODIFIED="1466414689572" POSITION="right" TEXT="Estimator">
+<node CREATED="1466414694869" ID="ID_780982389" MODIFIED="1466414703322" TEXT="A formula for estimating a parameter"/>
+<node CREATED="1466414729884" ID="ID_129865251" MODIFIED="1466414744619" TEXT="the distribution of estimator =&gt; sampling distribution"/>
+<node CREATED="1466414752608" ID="ID_791424483" MODIFIED="1466414829801" TEXT="Standard Error of the sample Mean=== SD(sampling distribution of the sample mean)"/>
+<node CREATED="1466414847730" ID="ID_479095922" MODIFIED="1466414888831" TEXT="Unbias: Expected value of estimator = Population Parameter"/>
+<node CREATED="1466414863000" ID="ID_1460261551" MODIFIED="1466414869803" TEXT="Efficient: Min Variance"/>
+<node CREATED="1466414893479" ID="ID_1550869149" MODIFIED="1466414913466" TEXT="Consistent: More accurate when sample size increase"/>
+</node>
+<node CREATED="1466414931389" ID="ID_1683939636" MODIFIED="1466414968586" POSITION="left" TEXT="Estimate">
+<arrowlink DESTINATION="ID_1683939636" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_701701826" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1683939636" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_701701826" SOURCE="ID_1683939636" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<node CREATED="1466414944477" ID="ID_1043184754" MODIFIED="1466414949140" TEXT="Point Estimate"/>
+<node CREATED="1466414950194" ID="ID_1593003006" MODIFIED="1466414956696" TEXT="Interval Estimate"/>
+<node CREATED="1466414971880" ID="ID_965521850" MODIFIED="1466414983224" TEXT="Confidence Interval"/>
+<node CREATED="1466415003980" ID="ID_1663040523" MODIFIED="1466415029472" TEXT="t distribution: n-1"/>
+</node>
+<node CREATED="1466415071047" ID="ID_1320361921" MODIFIED="1466415073283" POSITION="right" TEXT="Issues:">
+<node CREATED="1466415085678" ID="ID_1321951216" MODIFIED="1466415093968" TEXT="Data Mining Bias"/>
+<node CREATED="1466415160599" ID="ID_1110625509" MODIFIED="1466415169938" TEXT="Sample Selection Bias">
+<node CREATED="1466415179467" ID="ID_105700548" MODIFIED="1466415187626" TEXT="Survivorship Bias"/>
+</node>
+<node CREATED="1466415104092" ID="ID_1088699951" MODIFIED="1466415108505" TEXT="Look-Ahead Bias"/>
+<node CREATED="1466415141263" ID="ID_975594874" MODIFIED="1466415151283" TEXT="Time-Period bias: Structural Change"/>
+</node>
+<node CREATED="1466431886516" ID="ID_93894602" MODIFIED="1466431926392" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="../Pictures/InferenceStats.png" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1466471746605" ID="ID_446240453" MODIFIED="1466471757932" POSITION="right" TEXT="Standard Error VS Standard Deviation">
+<node CREATED="1466471760627" ID="ID_65524518" MODIFIED="1466471810978" TEXT="The standard deviation of a sample statistics is known as the standard error of statistic"/>
+</node>
+</node>
+</map>
